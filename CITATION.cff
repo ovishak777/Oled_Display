@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it using the following metadata."
+authors:
+  - family-names: "Edber"
+    given-names: "Ovishak"
+title: "Robot eye display with the oled display"
+data-release-date: "2024-07-02"
+url: "https://github.com/ovishak777/Oled_Display"
