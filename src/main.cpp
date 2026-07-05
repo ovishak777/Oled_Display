@@ -24,23 +24,26 @@ void rightEye(int x, int y, int width, int height) {
     int rightx = 127 - ex - width;
     display.fillRect(rightx, y, width, height, color);
 }
+// rounded left eye
 void rrleftEye(int x,int y, int width, int height){
   display.fillRoundRect(x,y,width,height,radius,color);
 }
+// rounded right eye
 void rrrightEye(int x, int y, int width, int height) {
     int rightx = 127 - ex - width;
     display.fillRoundRect(rightx, y, width, height,radius, color);
 }
-
+//show eyes(normal rectangle eyes)
 void showEye() {
     cd();
     leftEye(ex,ey,rw,rh);
     rightEye(ex,ey,rw,rh);
     dd();
 }
+//core coding of the blinking eyes
 void blinkEyes() {
     // close eyes
-    for (int h = 2; h < rh; h += 3) {
+    for (int h = 2; h <= rh; h += 3) {
         cd();
         int close_open_ey=(ey + h) / 2;
         leftEye(ex, (close_open_ey), rw, rh - h);
@@ -49,7 +52,7 @@ void blinkEyes() {
         delay(11);
     }
     // open eyes
-    for (int h = rh; h > 3; h -= 2) {
+    for (int h = rh; h >= 3; h -= 2) {
         cd();
         int close_open_ey=(ey + h) / 2;
         leftEye(ex, (close_open_ey), rw, rh - h);
