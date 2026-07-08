@@ -192,6 +192,21 @@ void loop() {
     rrblinkEyes();
     delay(500);
     moveRREyesTo(center,28);
+    delay(500);
+    moveRREyesTo(left,28);
+    delay(500);
+    moveRREyesTo(right,28);
+    delay(500);
+    moveRREyesTo(rightup,28);
+    delay(500);
+    moveRREyesTo(leftup,28);
+    delay(500);
+    moveRREyesTo(down,28);
+    delay(500);
+    moveRREyesTo(rightdown,28);
+    delay(500);
+    moveRREyesTo(leftdown,28);
+    delay(500);
 
 
     
