@@ -14,9 +14,12 @@
 
 
 #define ex 32//basic eyes x axis distance
-#define ey 20//basic eyes y axis distance
+#define ey 11//basic eyes y axis distance
 #define rh 28//basic eyes height
 #define rw 23//basic eyes width
+
+#define Move_X_Range 21
+#define Move_Y_Range 16
 
 //to show janina effect
 #define rhj 3//janina height
@@ -25,5 +28,6 @@
 #define radius 3//radius for the round rectangle
 
 const uint16_t color=SSD1306_WHITE;//color of the eye
+
 
 #endif
