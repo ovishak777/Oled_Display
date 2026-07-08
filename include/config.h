@@ -18,7 +18,7 @@
 #define rh 28//basic eyes height
 #define rw 23//basic eyes width
 
-#define Move_X_Range 21
+#define Move_X_Range 23
 #define Move_Y_Range 16
 
 //to show janina effect
